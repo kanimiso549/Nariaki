@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = "MTQwMTE1MjAxNTU1MTQzNDgwMg.GeXz8B.ONzmF7rADEYX9axnOxdWhVRE72iInPxIH6F3OA"  # Botトークン
+TOKEN = "DISCORD_TOKEN"  # Botトークン
 LOG_CHANNEL_ID = 1401186153809580032
 
 intents = discord.Intents.default()
