@@ -65,4 +65,4 @@ async def setup_hook():
     synced = await bot.tree.sync()
     print(f"🔧 Synced {len(synced)} global commands")
 
-bot.run(DISCORD_TOKEN)
+bot.run('DISCORD_TOKEN')
