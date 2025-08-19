@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = ""  # Botトークン
+DISCORD_TOKEN = ""  # Botトークン
 LOG_CHANNEL_ID = 1401186153809580032
 
 intents = discord.Intents.default()
@@ -65,4 +65,4 @@ async def setup_hook():
     synced = await bot.tree.sync()
     print(f"🔧 Synced {len(synced)} global commands")
 
-bot.run(TOKEN)
+bot.run(DISCORD_TOKEN)
